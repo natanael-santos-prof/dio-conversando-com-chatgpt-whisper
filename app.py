@@ -6,7 +6,7 @@ import sounddevice as sd
 from scipy.io.wavfile import write
 
 # Configuração do cliente OpenAI - COLE SUA CHAVE DE API ABAIXO:
-client = OpenAI(api_key="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")
+client = OpenAI("SUA_CHAVE_AQUI")
 
 def gravar_audio(nome_arquivo="input.wav", duracao=5, fs=44100):
     """Grava o áudio do microfone por um tempo determinado."""
